@@ -1,0 +1,91 @@
+
+.wrapper{
+    background: #4D87EA;
+    height: 100vh;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper a{
+    color:#2196F3;
+    text-decoration: none;
+  }
+  .login_block{
+      height: 30rem;
+      max-height:100%;
+      
+  }
+  .login{
+    display: inline-grid;
+   grid-gap: 1rem 1rem;
+   grid-template-columns:17rem;
+   justify-content:center;
+   
+  }
+
+/* css cho checkbox */
+/* Create a custom checkbox */
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: rgb(70, 70, 70);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 0.2rem;
+  /* top: 1px; */
+  width: 0.4rem;
+  height: 0.6rem;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* Het css cho check box */
+button{
+  color: white;
+  border: none;
+  height: 2.5rem;
+}
+.login hr::before{
+  content:"OR";
+  position: absolute;
+  margin-left: 42%;
+  color:gray;
+  font-size: 0.7rem;
+  top:-0.5rem;
+  background: #ffff;
+
+  height: 0.7rem;
+  padding-left:0.7rem;
+  padding-right:0.7rem;
+}
+@media (max-width:630px){
+  .image{
+    display: none;
+  }
+  .login_block{
+    width: 95%;
+    justify-content: center;
+  }
+  .login{
+    width: 90%;
+  }
+}
