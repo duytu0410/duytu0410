@@ -62,6 +62,9 @@
             .block_bottom{
                 max-width: 55rem;
             }
+            .right_container header button{
+                margin-right:12.5rem;
+            }
             @media (max-width:600px){
                 body{
                     flex-direction: column;
@@ -69,5 +72,7 @@
                 .head{
                     flex-direction: column;
                 }
-                
+                .right_container header{
+                    flex-direction: column;
+                }
             }
