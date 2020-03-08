@@ -1,0 +1,26 @@
+
+  .popover__content {
+   max-width:22rem ;
+   max-height: 50rem;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+  header{
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+  }
+  header:before {
+    margin-top:-0.6rem;
+    position: absolute;
+    z-index: 2;
+    content: "";
+    right: calc(50% - 1rem);
+    border-style: solid;
+    border-width: 0 1rem 1rem 1rem;
+    border-color: transparent transparent #357edd transparent;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+  header button{
+    font-size: 0.6rem;
+  }
+  

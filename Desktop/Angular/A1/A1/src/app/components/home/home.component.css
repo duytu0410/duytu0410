@@ -1,0 +1,73 @@
+           
+            
+            .searchButton {
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            
+            .notification .badge {
+                width: 0.7rem;
+                height: 0.7rem;
+                right: -0.2rem;
+            }
+            
+
+            .lable {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            
+            .note:before {
+                content: '';
+                position: absolute;
+                width: 0.6rem;
+                height: 0.6rem;
+                border-radius: 100%;
+                top: 0.2rem;
+                left: -0.8rem
+            }
+            
+            .first:before {
+                background: orange;
+            }
+            
+            .second:before {
+                background: #357edd;
+            }
+            
+            .row:hover {
+                border-left: 3px solid #357edd;
+                opacity: 1;
+                color: #357edd;
+            }
+            
+            .menu {
+               
+                border-top-right-radius: 10px;
+             
+            }
+            
+            .menu .row1 {
+                height: 3rem;
+            }
+            
+            .menu .row:hover {
+                border-left: 5px solid white;
+            }
+            
+            .menu .row:hover i {
+                opacity: 1;
+                color: white;
+            }
+            .block_bottom{
+                max-width: 55rem;
+            }
+            @media (max-width:600px){
+                body{
+                    flex-direction: column;
+                }
+                .head{
+                    flex-direction: column;
+                }
+                
+            }
